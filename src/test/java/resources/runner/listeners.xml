@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.nopcommerce.testsuite.LoginPageTest"></listener>
+        <listener class-name="com.nopcommerce.testsuite.ComputerPageTest"></listener>
+        <listener class-name="com.nopcommerce.testsuite.RegisterPageTest"></listener>
+    </listeners>
+    <test name="Nop Commerce SW5">
+        <classes>
+            <class name="com.nopcommerce.testsuite.LoginPageTest"></class>
+            <class name="com.nopcommerce.testsuite.ComputerPageTest"></class>
+            <class name="com.nopcommerce.testsuite.RegisterPageTest"></class>
+        </classes>
+    </test>
+</suite>
